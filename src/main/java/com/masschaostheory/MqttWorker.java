@@ -2,11 +2,11 @@ package com.masschaostheory;
 
 import java.time.Instant;
 import java.util.Date;
-import java.util.UUID;
 
+@SuppressWarnings("unused")
 public interface MqttWorker extends Runnable {
 
-    int LONG_SLEEP = 3000;
+    int LONG_SLEEP = 10000;
     int SHORT_SLEEP = 300;
 
     default void logConnect( int id, String uid )
