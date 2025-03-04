@@ -6,7 +6,7 @@ public class Measures {
     private String u;
     private float v;
 
-    public Measures( String n, String u, float v)
+    public Measures( String n, String u, float v )
     {
         this.n = n;
         this.u = u;
@@ -17,7 +17,7 @@ public class Measures {
         return n;
     }
 
-    public void setN(String n) {
+    public void setN( String n ) {
         this.n = n;
     }
 
@@ -25,7 +25,7 @@ public class Measures {
         return u;
     }
 
-    public void setU(String u) {
+    public void setU( String u ) {
         this.u = u;
     }
 
@@ -33,7 +33,7 @@ public class Measures {
         return v;
     }
 
-    public void setV(float v) {
+    public void setV( float v ) {
         this.v = v;
     }
 }

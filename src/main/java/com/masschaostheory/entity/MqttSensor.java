@@ -8,7 +8,7 @@ public class MqttSensor {
     private final String id;
     private List<Measures> measures = new ArrayList<>();
 
-    public MqttSensor(String id) {
+    public MqttSensor( String id ) {
         this.id = id;
     }
 
@@ -16,7 +16,7 @@ public class MqttSensor {
         return measures;
     }
 
-    public void setMeasures(List<Measures> measures) {
+    public void setMeasures( List<Measures> measures ) {
         this.measures = measures;
     }
 
@@ -24,7 +24,7 @@ public class MqttSensor {
         measures = new ArrayList<>();
     }
 
-    public void addMeasure(String dis, String unit, float val)
+    public void addMeasure( String dis, String unit, float val )
     {
         measures.add(new Measures(dis, unit, val));
     }
